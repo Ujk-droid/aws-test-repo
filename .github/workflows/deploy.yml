@@ -6,10 +6,10 @@ on:
 
 env:
   AWS_REGION: ap-south-1                  # Your AWS Region
-  ECR_REPOSITORY: my-node-app             # Your ECR Repo Name
-  ECS_SERVICE: my-node-service            # Your Service Name
-  ECS_CLUSTER: my-cluster                 # Your Cluster Name
-  ECS_TASK_DEFINITION_FAMILY: my-node-task 
+  ECR_REPOSITORY: my-app             # Your ECR Repo Name
+  ECS_SERVICE: my-service           # Your Service Name
+  ECS_CLUSTER: new-my-cluster               # Your Cluster Name
+  ECS_TASK_DEFINITION_FAMILY: my-task-one
   CONTAINER_NAME: node-container          
 
 jobs:
